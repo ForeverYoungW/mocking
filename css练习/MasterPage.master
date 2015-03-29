@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Template Name</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/bg.gif);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+body p {
+	color: #5d5d5d;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #605AAF;
+	letter-spacing: -1px;
+}
+.bestext {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #e63c5b;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fea217;
+	margin: 0;
+	padding: 0;
+	line-height: 45px;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #a35f9c;
+	line-height: 45px;
+	margin: 0;
+	padding: 0;
+}
+td.footer {
+	background-color: #B6BBE5;
+}
+td.footer p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+      }
+td.footer a {
+	color: #605AAF;
+	text-decoration: none;
+}
+td.footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="675" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/topheader.gif" width="675" height="226" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="images/linebreak.gif" width="675" height="23" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><table width="660" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><h1>Best Sellers</h1></td>
+      </tr>
+    </table>
+      <table width="660" border="0" cellspacing="8" cellpadding="0">
+        <tr>
+          <td align="left" valign="top"><img src="images/p01.gif" width="118" height="109" alt=""></td>
+          <td align="left" valign="top"><img src="images/p02.gif" width="117" height="109" alt=""></td>
+          <td align="left" valign="top"><img src="images/p03.gif" width="117" height="109" alt=""></td>
+          <td align="left" valign="top"><img src="images/p04.gif" width="117" height="109" alt=""></td>
+          <td align="left" valign="top"><img src="images/p05.gif" width="117" height="109" alt=""></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p><span class="bestext">Daffodil</span><br>
+          Adipiscing elito sed diam nummy nibh euismo ut.</p></td>
+          <td align="left" valign="top"><p><span class="bestext">Flowers</span><br>
+Adipiscing elito sed diam nummy nibh euismo ut.</p></td>
+          <td align="left" valign="top"><p><span class="bestext">Daisies</span><br>
+Adipiscing elito sed diam nummy nibh euismo ut.</p></td>
+          <td align="left" valign="top"><p><span class="bestext">Tulips</span><br>
+Adipiscing elito sed diam nummy nibh euismo ut.</p></td>
+          <td align="left" valign="top"><p><span class="bestext">Mixed</span><br>
+Adipiscing elito sed diam nummy nibh euismo ut.</p></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><img src="images/linebreak.gif" width="675" height="23" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="660" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><h2>Your Online Florist</h2><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, adipiscing consectetuer adipiscing elit, sed diam. </p></td>
+        <td width="330" align="right"><img src="images/pic01.gif" width="323" height="190" alt=""></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><img src="images/linebreak.gif" width="675" height="23" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="images/ad.gif" width="675" height="205" alt=""></td>
+  </tr>
+  <tr>
+    <td><img src="images/linebreak.gif" width="675" height="23" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><table width="655" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top"><table width="310" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="145"><img src="images/pic02.gif" width="137" height="159" alt=""></td>
+            <td><h3>Flower 1</h3><p>Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna minim veniam, qui.</p> <img src="images/shopnow.gif" alt="" width="74" height="22" hspace="0" vspace="3"></td>
+          </tr>
+        </table></td>
+        <td align="left" valign="top"><table width="310" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="145"><img src="images/pic03.gif" width="128" height="159" alt=""></td>
+            <td><h3>Bouquet 1</h3>
+              <p>Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna minim veniam, qui.</p>
+              <img src="images/shopnow.gif" alt="" width="74" height="22" hspace="0" vspace="3"></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><table width="650" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="19"><img src="images/b1.gif" width="19" height="56" alt=""></td>
+        <td class="footer" align="center"><table width="600" border="0" cellspacing="0" cellpadding="6">
+          <tr>
+            <td width="382" align="left"><p>Having trouble viewing this e-mail? <a href="#">View it in your browser </a></p></td>
+            <td align="right"><table width="165" border="0" cellspacing="0" cellpadding="3">
+              <tr>
+                <td align="right"><a href="#"><img src="images/unsubscribe.gif" alt="Unsubscribe" width="92" height="20" border="0"></a></td>
+                <td><a href="#"><img src="images/subscribe.gif" alt="Subscribe" width="83" height="20" border="0"></a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="20"><img src="images/b2.gif" width="20" height="56" alt=""></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

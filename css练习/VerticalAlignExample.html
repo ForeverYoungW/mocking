@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        div {
+            border: 1px solid;
+            display: inline-block;
+            font-size: 30px;
+            padding: 0;
+            margin: 5px;
+        }
+        span {
+            border: 1px solid;
+            margin: 0;
+            padding: 0;
+            background: red;
+            color: white;
+            font-size: 15px;
+        }
+        .baseline {
+            vertical-align: baseline;
+        }
+        .sub {
+            vertical-align: sub;
+        }
+        .super {
+            vertical-align: top;
+        }
+        .top {
+            vertical-align: super;
+        }
+        .text-top {
+            vertical-align: text-top;
+        }
+        .middle {
+            vertical-align: middle;
+        }
+        .bottom {
+            vertical-align: bottom;
+        }
+        .text-bottom {
+            vertical-align: bottom;
+        }
+        .Length {
+            vertical-align: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>baseline:基线对齐<span class="baseline">对齐内容</span></div>
+    <div>length:基线偏移量对齐<span class="Length">对齐内容</span></div>
+    <div>sub:下标对齐<span class="sub">下标</span></div>
+    <div>super:上标对齐<span class="super">上标</span></div>
+    <div>top:对象与顶端对齐<span class="top">对齐内容</span>
+    text-top:文本与顶端对齐<span class="text-top">对齐内容</span></div>
+    <div>middle:内容与中部对齐<span class="middle">对齐内容</span></div>
+    <div>bottom:内容与底端对齐<span class="bottom">对齐内容</span>
+        text-bottom:文本与底端对齐<span class="text-bottom">对齐内容</span>
+    </div>
+</body>
+</html>
